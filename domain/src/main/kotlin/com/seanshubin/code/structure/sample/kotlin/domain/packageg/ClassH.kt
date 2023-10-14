@@ -7,7 +7,7 @@ class ClassH(
     private val d: ClassD,
     private val j: ClassJ,
 ) {
-    fun methodH(){
+    fun methodH() {
         d.methodD()
         j.methodJ()
     }
