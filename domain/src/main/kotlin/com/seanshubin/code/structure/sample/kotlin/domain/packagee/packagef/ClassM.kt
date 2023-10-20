@@ -1,7 +1,13 @@
 package com.seanshubin.code.structure.sample.kotlin.domain.packagee.packagef
 
-class ClassM(private val n: ClassN) {
+import com.seanshubin.code.structure.sample.kotlin.domain.ClassE
+
+class ClassM(
+    private val n: ClassN,
+    private val e: ClassE
+) {
     fun methodM() {
         n.methodN()
+        e.methodE()
     }
 }
